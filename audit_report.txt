@@ -1,0 +1,27 @@
+ Firewall Check:
+ iptables is configured.
+
+ Service Check:
+ No unnecessary services found.
+
+ SSH Configuration Check:
+  Insecure SSH settings detected.
+
+ File Permission Check:
+  /etc/shadow permissions are secure.
+  /etc/passwd permissions are secure.
+
+🧬 Rootkit Check:
+ chkrootkit found no issues.
+ rkhunter warning found.
+
+ Summary:
+  Compliance Score: 4.0/6
+ System needs improvements.
+
+ Recommendations:
+  - Enable and configure UFW or iptables.
+  - Disable unused services (like cups, bluetooth).
+  - Harden SSH settings: disable root login, enforce protocol 2.
+  - Set proper permissions for sensitive files.
+  - Run rootkit scanners regularly.
