@@ -1,7 +1,6 @@
 import os
 import subprocess
 
-# Report and score trackers
 report = []
 score = 0
 max_score = 6
