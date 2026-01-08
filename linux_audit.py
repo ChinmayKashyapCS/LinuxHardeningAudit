@@ -75,7 +75,7 @@ def check_file_permissions():
 
 def check_rootkits():
     global score
-    report.append("\n🧬 Rootkit Check:")
+    report.append("\n Rootkit Check:")
     try:
         chkrootkit = subprocess.getoutput("which chkrootkit")
         rkhunter = subprocess.getoutput("which rkhunter")
